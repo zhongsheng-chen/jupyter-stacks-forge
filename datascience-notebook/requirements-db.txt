@@ -1,0 +1,12 @@
+pymssql
+pymysql
+pyodbc
+pyodps[full]
+psycopg[binary]
+vertica-python
+impyla
+duckdb
+oracledb
+SQLAlchemy
+snowflake-sqlalchemy
+vertica-sqlalchemy

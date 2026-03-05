@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+.jupyter/
+profile_default/
+ipython_config.py
+
+# Docker
+*.log
+Dockerfile.bak
+*.tar
+*.tgz
+*.tar.gz
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build logs
+logs/
+*.log
+build_*.log
+*.out
+
+# Common shared directory (keep structure but ignore contents)
+common/
+!common/.gitkeep
+common/wheels/
+!common/wheels/.gitkeep
+common/wheels/*
+!common/wheels/.gitkeep
+common/db_clients/
+!common/db_clients/.gitkeep
+common/db_clients/*
+!common/db_clients/.gitkeep
+
+# Temporary build directories (completely ignored)
+**/wheels/
+**/db_clients/
+
+# Temporary files
+*tmp*
+temp/
+*.bak
+*.tmp
+
+# Ignore sensitive or generated files
+.secrets/
+*.key
+*.pem
+*.crt

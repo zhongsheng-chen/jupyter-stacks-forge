@@ -1,0 +1,14 @@
+name: python37
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - ipykernel
+  - numpy>=1.19,<2.0
+  - pandas>=1.1,<2.0
+  - SQLAlchemy>=1.4,<2.1
+  - JPype1>=1.0.0
+  - pip:
+      - --no-index --find-links=/tmp/wheels datasource
+      - --no-index --find-links=/tmp/wheels oss-storage-utils

@@ -1,0 +1,14 @@
+name: python312
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipykernel
+  - numpy>=1.25,<2.5
+  - pandas>=2.3,<3.0
+  - SQLAlchemy>=2.0
+  - JPype1>=1.5
+  - pip:
+      - --no-index --find-links=/tmp/wheels datasource
+      - --no-index --find-links=/tmp/wheels oss-storage-utils
